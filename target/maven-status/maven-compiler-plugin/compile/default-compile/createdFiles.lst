@@ -1,0 +1,13 @@
+co\edu\unicauca\appcarrito\persistence\entities\Producto.class
+co\edu\unicauca\appcarrito\persistence\jpa\ProductoJpaController.class
+co\edu\unicauca\appcarrito\persistence\entities\Usuario.class
+co\edu\unicauca\appcarrito\persistence\jpa\exceptions\IllegalOrphanException.class
+co\edu\unicauca\appcarrito\persistence\jpa\exceptions\PreexistingEntityException.class
+co\edu\unicauca\appcarrito\persistence\entities\Carrito_.class
+co\edu\unicauca\appcarrito\control\ServletAppProduct.class
+co\edu\unicauca\appcarrito\persistence\jpa\CarritoJpaController.class
+co\edu\unicauca\appcarrito\persistence\jpa\UsuarioJpaController.class
+co\edu\unicauca\appcarrito\persistence\entities\Usuario_.class
+co\edu\unicauca\appcarrito\persistence\entities\Producto_.class
+co\edu\unicauca\appcarrito\persistence\jpa\exceptions\NonexistentEntityException.class
+co\edu\unicauca\appcarrito\persistence\entities\Carrito.class

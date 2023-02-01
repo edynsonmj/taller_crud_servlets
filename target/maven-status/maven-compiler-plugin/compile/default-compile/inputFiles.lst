@@ -1,0 +1,10 @@
+C:\Users\edyns\Documents\NetBeansProjects\appCarrito\src\main\java\co\edu\unicauca\appcarrito\persistence\entities\Usuario.java
+C:\Users\edyns\Documents\NetBeansProjects\appCarrito\src\main\java\co\edu\unicauca\appcarrito\persistence\jpa\exceptions\NonexistentEntityException.java
+C:\Users\edyns\Documents\NetBeansProjects\appCarrito\src\main\java\co\edu\unicauca\appcarrito\persistence\jpa\CarritoJpaController.java
+C:\Users\edyns\Documents\NetBeansProjects\appCarrito\src\main\java\co\edu\unicauca\appcarrito\control\ServletAppProduct.java
+C:\Users\edyns\Documents\NetBeansProjects\appCarrito\src\main\java\co\edu\unicauca\appcarrito\persistence\entities\Carrito.java
+C:\Users\edyns\Documents\NetBeansProjects\appCarrito\src\main\java\co\edu\unicauca\appcarrito\persistence\jpa\ProductoJpaController.java
+C:\Users\edyns\Documents\NetBeansProjects\appCarrito\src\main\java\co\edu\unicauca\appcarrito\persistence\jpa\exceptions\IllegalOrphanException.java
+C:\Users\edyns\Documents\NetBeansProjects\appCarrito\src\main\java\co\edu\unicauca\appcarrito\persistence\entities\Producto.java
+C:\Users\edyns\Documents\NetBeansProjects\appCarrito\src\main\java\co\edu\unicauca\appcarrito\persistence\jpa\exceptions\PreexistingEntityException.java
+C:\Users\edyns\Documents\NetBeansProjects\appCarrito\src\main\java\co\edu\unicauca\appcarrito\persistence\jpa\UsuarioJpaController.java
