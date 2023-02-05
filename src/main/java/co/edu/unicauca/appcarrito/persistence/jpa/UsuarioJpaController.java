@@ -13,10 +13,13 @@ import co.edu.unicauca.appcarrito.persistence.entities.Carrito;
 import co.edu.unicauca.appcarrito.persistence.entities.Usuario;
 import co.edu.unicauca.appcarrito.persistence.jpa.exceptions.IllegalOrphanException;
 import co.edu.unicauca.appcarrito.persistence.jpa.exceptions.NonexistentEntityException;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
+import javax.naming.NamingException;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
 
 /**
  *
@@ -27,6 +30,12 @@ public class UsuarioJpaController implements Serializable {
     public UsuarioJpaController(EntityManagerFactory emf) {
         this.emf = emf;
     }
+    
+    public UsuarioJpaController() throws NamingException {
+        //this.utx = (UserTransaction) new InitialContext().lookup("java:comp/UserTransaction");
+        this.emf = Persistence.createEntityManagerFactory("co.edu.unicauca_appCarrito_war_1.0-SNAPSHOTPU");
+    }
+    
     private EntityManagerFactory emf = null;
 
     public EntityManager getEntityManager() {
@@ -198,5 +207,22 @@ public class UsuarioJpaController implements Serializable {
             em.close();
         }
     }
-    
+
+    public boolean loginValidation(Usuario loginBean) throws SQLException {
+//        Usuario user = findUsuario(id);
+//        if (user != null && user.getClave().equals(pass)) {
+//            return user;
+//        }
+//        return null;
+        boolean status = false;
+        EntityManager em = getEntityManager();
+        String username = loginBean.getUsuario();
+        String password = loginBean.getClave();
+
+        if (username != null && password.equals(password)) {
+            return status;
+        }
+        return status;
+    }
+
 }
